@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTaskBar">#D32F2F</color>
+    <color name="colorSignButton">#3498DB</color>
+    <color name="color2">#A92626</color>
+    <color name="terms_text_color">#3699DB</color>
+    <color name="my_white">#ffffff</color>
+</resources>

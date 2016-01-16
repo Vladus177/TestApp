@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="sign_up">Sign up</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="pass_repeat">Repeat password</string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="terms1">By continuing you accept our </string>
+    <string name="terms2"> and </string>
+    <string name="terms_of_use"><u><font color='#3699DB'>Terms of Use</font></u></string>
+    <string name="privacy_policy">Privacy Policy</string>
+</resources>
