@@ -17,6 +17,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
@@ -52,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         final EditText name = (EditText) findViewById(R.id.editTextName);
         final EditText mail = (EditText) findViewById(R.id.editTextMail);
@@ -158,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
                     strReturnedAddress.append(returnedAddress.getAddressLine(i)).append("\n");
                 }
                 ret = strReturnedAddress.toString();
-                Toast.makeText(getApplicationContext(), ret, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), ret, Toast.LENGTH_SHORT).show();
             } else {
                 ret = "No Address returned!";
             }
